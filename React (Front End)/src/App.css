@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+/* These elements are used on general components found on the webpage */
+body{
+  /*Used on the main body of each webpage. */
+	background-color: #ecf4f9;
+  min-height: 700px;
+}
+
+input{
+  /*Used on the search box on the Authors and Papers pages*/
+  margin: 10px;
+  font-family: "Calibri";
+}
+
+img {
+  /*Used on the image found on the home page*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/*These elements are used for the Headers on the webpage.*/
+h1{
+  /*Used on page titles */
+  font-size: 30px;
+  Font-family: "Calibri";
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2{
+  /*Used for the 'Random paper of the day' title */
+  font-size: 20px;
+  font-family: "Calibri";
+}
+
+h3{
+  /*Used for the (Click X to view more details) text.*/
+  font-size: 15px;
+  font-family: "Calibri";
+  text-decoration: underline;
+}
+
+h4{
+  /*Used within the entires on the Paper's page */
+  font-size: 18px;
+  font-family: "Calibri";
+  text-decoration: underline;
+}
+
+/*These elements style the text found on the webpage*/
+p{
+  /*Sets the textsize, font and colour for most text on the webpage*/
+  color: rgb(41, 35, 35);
+  font-size: 18px;
+  Font-family: "Calibri";
+}
+
+p.ex1{
+  /*Used on the title of the paper, making it bold.*/
+  color: rgb(41, 35, 35);
+  font-size: 18px;
+  Font-family: "Calibri";
+  font-weight: bold;
+}
+
+/*These elements style the links found on the webpage*/
+a{
+    /*Used on the URL's at the top of the page.*/
+    color: rgb(41, 35, 35);
+    font-family: "Calibri";
+    text-align: center;
+    font-size: 18px;
+}
+a.ex1{
+  /*Used on the final entry within the paper, creating a border declaring the end of the entry.*/
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+}
+
+li {
+  display: inline;
+  padding: 40px;
+  list-style: none;
+}
